@@ -20,7 +20,7 @@
 </em>
 
 
-<h5>Tecnologias usadas</h5>
+<h2>Tecnologias usadas</h2>
 
 <ul>
   <li>ReactJS</li>
@@ -31,7 +31,7 @@
 </ul>
 
 
-<h5>Como iniciar um projeto</h5>
+<h2>Como iniciar um projeto</h2>
 
 <strong>Com Docker</strong>
 
