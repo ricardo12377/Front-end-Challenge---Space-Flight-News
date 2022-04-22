@@ -1,0 +1,81 @@
+.lista {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    position: relative;
+}
+
+ul li {
+    list-style: none;
+}
+
+.button {
+    width: 200px;
+    margin-bottom: 2em;
+}
+
+.modal {
+    width: 1300px;
+    background-color: var(--secondary-color);
+    color: var(--third-color);
+    height: 600px;
+    display: flex;
+    position: fixed;
+    bottom: 3.5em;
+    left: 6.9em;
+}
+
+.fotomodal {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+}
+
+.fotomodal section {
+   width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6em;
+}
+
+.fotomodal a{
+    text-decoration: none;
+}
+
+.fotomodal button {
+    width: 200px;
+    background-color: var(--primary-color);
+    color: var(--third-color);
+}
+
+.fotomodal img {
+    width: 90%;
+    height: 80%;
+}
+
+.descricao {
+    width: 50%;
+    height: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 3em;
+}
